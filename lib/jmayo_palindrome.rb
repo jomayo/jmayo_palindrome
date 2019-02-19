@@ -1,6 +1,8 @@
 require "jmayo_palindrome/version"
 
-module JmayoPalindrome
-  class Error < StandardError; end
+module Jmayo
+  module Palindrome 
+    
   # Your code goes here...
+  end
 end

@@ -1,13 +1,11 @@
 require "test_helper"
 
-describe JmayoPalindrome do
-  it "test_it_does_something_useful" do
-    
+class Jmayo::PalindromeTest < Minitest::Test
+  def test_that_it_has_a_version_number  
+    refute_nil ::Jmayo::Palindrome::VERSION
   end
-end
   
-describe JmayoPalindrome do
-	it "test_something_else" do
-	  
+  def test_it_does_something_useful
+    assert false
   end
 end
